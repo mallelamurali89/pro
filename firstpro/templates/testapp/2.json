@@ -1,0 +1,15 @@
+{
+            "Products":[
+                {"Name":"P1", "Dies":"2", "Shifts":"10","Type":{0:"M1",1:"M2"},"Demand":"8000"},
+                {"Name":"P2", "Dies":"2", "Shifts":"10","Type":{0:"M2",1:"M3"},"Demand":"4500"},
+                {"Name":"P3", "Dies":"3", "Shifts":"16","Type":{0:"M1",1:"M3"},"Demand":"5000"}
+                ],
+            "Machines":[
+                {"Name":"M1","Type":"1", "NoOfMachines":"1"},
+                {"Name":"M2","Type":"2", "NoOfMachines":"2"},
+                {"Name":"M3","Type":"3", "NoOfMachines":"3"}
+            ],
+            "Inventory":[{"P1": "150","P2": "250","P3": "350"}],
+            "dispatch": [{"P1": "700","P2": "500","P3": "850"}],
+            "Schedules" : {"Days":2,"shiftsperday":3}
+        }
